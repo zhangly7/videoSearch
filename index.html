@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>User Login</title>
+    <link href="css/login-styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <div class="user-icon"></div>
+    <div class="pass-icon"></div>
+    <form name="login-form" class="login-form" action="search.php" method="post">
+        <!--Header-->
+        <div class="header">
+            <h1>Open Video Search</h1>
+            <span>Use username-admin, password-test for test.</span>
+        </div>
+        <!--Username & Password-->
+        <div class="content">
+            <input name="user" type="text" class="input username" value="Username" onfocus="this.value=''" />
+            <input name="pw" type="password" class="input password" value="Password" onfocus="this.value=''" />
+        </div>
+        <!--Login Button-->
+        <div class="footer">
+            <input type="submit" name="submit" value="Login" class="button" />
+        </div>
+    </form>
+</div>
+<div class="gradient"></div>
+
+<script src="login.js"></script>
+</body>
+
+</html>

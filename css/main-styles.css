@@ -1,0 +1,102 @@
+body {
+    background-color: #89b7c4;
+    background-image: url(../images/asfalt-dark.png);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    text-align: left;
+    text-decoration: none;
+}
+
+.container{
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    margin:50px 8px 40px 8px;
+
+    -webkit-justify-content: center;
+    -justify-content: center;
+    align-items: flex-start;
+}
+
+h2{
+    font-family: Consolas;
+}
+
+.searchBox{
+    position: relative;
+    width:260px;
+    margin-right: 90px;
+    margin-top: 16px;
+    box-sizing: border-box;
+}
+
+.searchBox input[type="text"]{
+    position: relative;
+    height: 25px;
+    width:180px;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+}
+.searchBox input[type="submit"]{
+    position: relative;
+    margin-left: 122px;
+    margin-top: 8px;
+    border: 2px solid cornflowerblue;
+    border-radius: 2px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.suggestion{
+    line-height: 7px;
+}
+
+
+.results{
+    position: relative;
+    margin-left: -40px;
+    top:-55px;
+    width: 660px;
+    box-sizing: border-box;
+}
+
+.result{
+    position: relative;
+    margin-top: -6px;
+    padding-left: 25px ;
+    padding-right: 25px;
+}
+
+#result-info{
+    color: #5c5f5f;
+}
+
+.border1{
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #3c474a;
+}
+
+.details{
+    position: relative;
+    margin: 16px 35px 16px 35px;
+
+    width: 280px;
+    height: 250px;
+    padding: 20px 10px 15px 15px;
+}
+
+
+.details p{
+    margin: 1px 0 1px 0;
+}
+
+.details span {
+    line-height: 135%;
+}
+
+#userInfo {
+    position: relative;
+    margin: 16px 16px 10px 10px;
+}
